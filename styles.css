@@ -1,0 +1,122 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    height: 100%
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+main section {
+    max-width: 600px;
+    width: 100%;
+}
+
+section img {
+    max-width: 300px;
+    height: auto;
+}
+
+.left {
+    float: left;
+    margin-right: 20px;
+}
+
+.right {
+    float: right;
+    margin-left: 20px;
+}
+
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    color: #dbe2e9;
+    font-size: smaller;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* .link-container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    margin: 0 auto;
+} */
+
+.link-container a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+}
+
+.link-container a:hover {
+    text-decoration: underline;
+}
+
+.link-container a::after {
+    content: '🡵';
+    margin-left: 5px;
+    font-size: 0.8em;
+    color: #bb86fc;
+}
+
+/* https://www.w3schools.com/howto/howto_css_clearfix.asp */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
